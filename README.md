@@ -27,7 +27,7 @@ Build yentend on Ubuntu 16.04
     sudo apt-get install libdb4.8-dev
     sudo apt-get install libdb4.8++-dev
     
-    git clone https://github.com/yenten/yenten.git
+    git clone https://github.com/conan-equal-newone/yenten.git
     cd yenten
     ./autogen.sh
     ./configure --enable-upnp-default --without-gui --disable-tests

@@ -1,6 +1,6 @@
 Yenten Core is now available from:
 
-  https://github.com/yenten/yenten
+  https://github.com/conan-equal-newone/yenten
 
 This is a new version release.
 
