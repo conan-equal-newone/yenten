@@ -1,7 +1,7 @@
 Yenten Core integration/staging tree
 =====================================
 
-https://yenten.github.io/yenten/
+https://conan-equal-newone.github.io/yenten/
 
 * Copyright (c) 2017-     Yenten Core Developers
 * Copyright (c) 2009-2017 Bitcoin Core Developers
