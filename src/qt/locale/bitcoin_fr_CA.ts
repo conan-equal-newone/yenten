@@ -70,23 +70,23 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Entrer le nouveau mot de passe pour le porte-feuille. Veuillez utiliser un mot de passe de 10 caractères au hasard ou plus, ou, 8 mots ou plus. </translation>
+        <translation>Entrer le nouveau mot de passe pour le portefeuille. Veuillez utiliser un mot de passe de 10 caractères au hasard ou plus, ou, 8 mots ou plus. </translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Encrypter Porte-Feuille</translation>
+        <translation>Encrypter le portefeuille</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Cette opération nécessite le mot de passe de votre porte-feuille pour débarrer le porte-feuille.</translation>
+        <translation>Cette opération nécessite le mot de passe de votre portefeuille pour débarrer le portefeuille.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Débarrer Porte-Feuille</translation>
+        <translation>Débarrer le portefeuille</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Cette opération nécessite le mot de passe de votre porte-feuille pour le décrypter.</translation>
+        <translation>Cette opération nécessite le mot de passe de votre portefeuille pour le décrypter.</translation>
     </message>
     </context>
 <context>
