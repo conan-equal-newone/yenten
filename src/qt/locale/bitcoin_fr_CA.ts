@@ -43,7 +43,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Record</translation>
+        <translation>Étiquette</translation>
     </message>
     <message>
         <source>Address</source>
@@ -51,7 +51,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de record)</translation>
+        <translation>(aucune étiquette)</translation>
     </message>
 </context>
 <context>
@@ -103,7 +103,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de record)</translation>
+        <translation>(aucune étiquette)</translation>
     </message>
     </context>
 <context>
@@ -150,25 +150,25 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>Label</source>
-        <translation>Record</translation>
+        <translation>Étiquette</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Record</translation>
+        <translation>Étiquette</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de record)</translation>
+        <translation>(aucune étiquette)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(pas de record)</translation>
+        <translation>(aucune étiquette)</translation>
     </message>
     </context>
 <context>
@@ -207,7 +207,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>Label</source>
-        <translation>Record</translation>
+        <translation>Étiquette</translation>
     </message>
     <message>
         <source>Address</source>
