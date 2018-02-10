@@ -20,7 +20,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>AddressBookPage</name>
     <message>
         <source>Double-click to edit address or label</source>
-        <translation>Double-cliquez afin de modifier l'adress ou l'étiquette</translation>
+        <translation>Double-cliquez afin de modifier l'adresse ou l'étiquette</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -47,7 +47,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -99,7 +99,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>CoinControlDialog</name>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -146,7 +146,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <source>Label</source>
@@ -196,7 +196,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>TransactionTableModel</name>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     </context>
 <context>
@@ -211,7 +211,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     </context>
 <context>
