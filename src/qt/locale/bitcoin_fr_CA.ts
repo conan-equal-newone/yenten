@@ -28,7 +28,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copier l'adresse surligné a votre presse-papier</translation>
+        <translation>Copier l'adresse sélectionnée dans votre presse-papier</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
