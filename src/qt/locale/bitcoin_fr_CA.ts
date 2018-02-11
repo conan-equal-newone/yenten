@@ -20,7 +20,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>AddressBookPage</name>
     <message>
         <source>Double-click to edit address or label</source>
-        <translation>Double-cliquez afin de modifier l'adress ou l'étiquette</translation>
+        <translation>Double-cliquez afin de modifier l'adresse ou l'étiquette</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -28,7 +28,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copier l'adresse surligné a votre presse-papier</translation>
+        <translation>Copier l'adresse sélectionnée dans votre presse-papier</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -43,15 +43,15 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Record</translation>
+        <translation>Étiquette</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de record)</translation>
+        <translation>(aucune étiquette)</translation>
     </message>
 </context>
 <context>
@@ -70,23 +70,23 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Entrer le nouveau mot de passe pour le porte-feuille. Veuillez utiliser un mot de passe de 10 caractères au hasard ou plus, ou, 8 mots ou plus. </translation>
+        <translation>Entrer le nouveau mot de passe pour le portefeuille. Veuillez utiliser un mot de passe de 10 caractères au hasard ou plus, ou, 8 mots ou plus. </translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Encrypter Porte-Feuille</translation>
+        <translation>Encrypter le portefeuille</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Cette opération nécessite le mot de passe de votre porte-feuille pour débarrer le porte-feuille.</translation>
+        <translation>Cette opération nécessite le mot de passe de votre portefeuille pour débarrer le portefeuille.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Débarrer Porte-Feuille</translation>
+        <translation>Débarrer le portefeuille</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Cette opération nécessite le mot de passe de votre porte-feuille pour le décrypter.</translation>
+        <translation>Cette opération nécessite le mot de passe de votre portefeuille pour le décrypter.</translation>
     </message>
     </context>
 <context>
@@ -99,11 +99,11 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>CoinControlDialog</name>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de record)</translation>
+        <translation>(aucune étiquette)</translation>
     </message>
     </context>
 <context>
@@ -146,29 +146,29 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Record</translation>
+        <translation>Étiquette</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Record</translation>
+        <translation>Étiquette</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de record)</translation>
+        <translation>(aucune étiquette)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(pas de record)</translation>
+        <translation>(aucune étiquette)</translation>
     </message>
     </context>
 <context>
@@ -196,7 +196,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>TransactionTableModel</name>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     </context>
 <context>
@@ -207,11 +207,11 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <source>Label</source>
-        <translation>Record</translation>
+        <translation>Étiquette</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Addresse</translation>
+        <translation>Adresse</translation>
     </message>
     </context>
 <context>
