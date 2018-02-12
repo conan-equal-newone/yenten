@@ -82,6 +82,24 @@ You can make your pool by customizing <a href="https://github.com/bonesoul/Coini
 <img src="./yenten_countach.png" alt="yay!!"><hr>
 <img src="./ooyb.png" alt="Oh Oh Yenten Baby!!"><hr>
 <a href="./aw.html"><img src="./tsureewa_and_yorumeshi.png" alt="KYeeaaaaaah!!"></a>
+<hr>
+<p>Big budget TV spot to spread ASIClessness awareness (futile to show to girls and kids)</p>
+<iframe id="tv_spot" width="560" height="315" src="https://www.youtube.com/embed/911SuVd_hUk?rel=0&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<script>
+// loads the youtube iframe api asynchronously, because we don't have time to wait for it, we gotta mine Yenten!
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+// pause the audio when video starts, no Yenten canon just yet
+function onStateChange(e) {
+if (e.data == YT.PlayerState.PLAYING) {
+document.querySelector('audio').pause();
+}
+}
+function onYouTubeIframeAPIReady() {
+new YT.Player('tv_spot', { events: { 'onStateChange': onStateChange } });
+}
+</script>
 </center></body>
 </html>
-
