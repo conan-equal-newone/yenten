@@ -28,8 +28,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Tous droits réservés</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Les développeurs Bitcoin Core</translation>
+        <source>The Yenten Core developers</source>
+        <translation>Les développeurs Yenten Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -344,12 +344,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Réindexation des blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Envoyer des pièces à une adresse Bitcoin</translation>
+        <source>Send coins to a Yenten address</source>
+        <translation>Envoyer des pièces à une adresse Yenten</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Modifier les options de configuration de Bitcoin</translation>
+        <source>Modify configuration options for Yenten</source>
+        <translation>Modifier les options de configuration de Yenten</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -400,11 +400,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Chiffrer les clefs privées de votre portefeuille</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Yenten addresses to prove you own them</source>
         <translation>Signer les messages avec vos adresses Yenten pour prouver que vous les détenez</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Yenten addresses</source>
         <translation>Vérifier les messages pour vous assurer qu'ils ont été signés avec les adresses Yenten spécifiées</translation>
     </message>
     <message>
@@ -837,8 +837,8 @@ Adresse : %4
         <translation>L’adresse fournie « %1 » est déjà présente dans le carnet d'adresses.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>L'adresse fournie « %1 » n'est pas une adresse Bitcoin valide.</translation>
+        <source>The entered address "%1" is not a valid Yenten address.</source>
+        <translation>L'adresse fournie « %1 » n'est pas une adresse Yenten valide.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -2650,8 +2650,8 @@ Adresse : %4
         <translation>Accepter les commandes de JSON-RPC et de la ligne de commande</translation>
     </message>
     <message>
-        <source>Bitcoin Core RPC client version</source>
-        <translation>Version du client RPC de Bitcoin Core</translation>
+        <source>Yenten Core RPC client version</source>
+        <translation>Version du client RPC de Yenten Core</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -3014,8 +3014,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Yenten" admin@foo.com
         <translation>Ceci est à l'intention des outils de test de régression et du développement applicatif.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitcoin-cli):</source>
-        <translation>Utilisation (obsolète, utiliser bitcoin-cli) :</translation>
+        <source>Usage (deprecated, use yenten-cli):</source>
+        <translation>Utilisation (obsolète, utiliser yenten-cli) :</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3050,8 +3050,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Yenten" admin@foo.com
         <translation>Importe des blocs depuis un fichier blk000??.dat externe</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Bitcoin Core fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. Yenten Core is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Yenten Core fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3138,8 +3138,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Yenten" admin@foo.com
         <translation>Options SSL : (voir le Wiki de Bitcoin pour les instructions de configuration du SSL)</translation>
     </message>
     <message>
-        <source>Send command to Bitcoin Core</source>
-        <translation>Envoyer une commande à Bitcoin Core</translation>
+        <source>Send command to Yenten Core</source>
+        <translation>Envoyer une commande à Yenten Core</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3174,8 +3174,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Yenten" admin@foo.com
         <translation>Spécifier le délai d'expiration de la connexion en millisecondes (par défaut : 5 000)</translation>
     </message>
     <message>
-        <source>Start Bitcoin Core Daemon</source>
-        <translation>Démarrer le démon Bitcoin Core</translation>
+        <source>Start Yenten Core Daemon</source>
+        <translation>Démarrer le démon Yenten Core</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3290,12 +3290,12 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Yenten" admin@foo.com
         <translation>Erreur lors du chargement de wallet.dat : portefeuille corrompu</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Erreur lors du chargement de wallet.dat : le portefeuille exige une version plus récente de Bitcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Yenten</source>
+        <translation>Erreur lors du chargement de wallet.dat : le portefeuille exige une version plus récente de Yenten</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Le portefeuille devait être réécrit : redémarrer Bitcoin pour terminer l'opération.</translation>
+        <source>Wallet needed to be rewritten: restart Yenten to complete</source>
+        <translation>Le portefeuille devait être réécrit : redémarrer Yenten pour terminer l'opération.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
