@@ -2650,8 +2650,8 @@ Adres: %4
         <translation>IPv4 üzerinde dinlemek için %u numaralı RPC portunun kurulumu sırasında hata meydana geldi: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 8332 veya tesnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 9982 veya tesnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2834,8 +2834,8 @@ mesela: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>SOCKS vekil sunucusuyla bağlan</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>&lt;port&gt; numarasında JSON-RPC'ye bağlan (varsayılan: 8332 veya testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>&lt;port&gt; numarasında JSON-RPC'ye bağlan (varsayılan: 9982 veya testnet: 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

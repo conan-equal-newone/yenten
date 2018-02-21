@@ -1625,8 +1625,8 @@ Aadress: %4⏎</translation>
         <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv4'l: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Kuula JSON-RPC ühendusel seda porti &lt;port&gt; (vaikeväärtus: 8332 või testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Kuula JSON-RPC ühendusel seda porti &lt;port&gt; (vaikeväärtus: 9982 või testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

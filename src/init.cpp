@@ -315,7 +315,7 @@ std::string HelpMessage(HelpMessageMode hmm)
     strUsage += "  -server                " + _("Accept command line and JSON-RPC commands") + "\n";
     strUsage += "  -rpcuser=<user>        " + _("Username for JSON-RPC connections") + "\n";
     strUsage += "  -rpcpassword=<pw>      " + _("Password for JSON-RPC connections") + "\n";
-    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 8332 or testnet: 18332)") + "\n";
+    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 9982 or testnet: 19982)") + "\n";
     strUsage += "  -rpcallowip=<ip>       " + _("Allow JSON-RPC connections from specified IP address") + "\n";
     strUsage += "  -rpcthreads=<n>        " + _("Set the number of threads to service RPC calls (default: 4)") + "\n";
 

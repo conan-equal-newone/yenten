@@ -2614,8 +2614,8 @@ Adresa: %4
         <translation>Doba ve vteřinách, po kterou se nebudou moci zlobivé uzly znovu připojit (výchozí: 86400)</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Čekat na JSON RPC spojení na &lt;portu&gt; (výchozí: 8332 nebo testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Čekat na JSON RPC spojení na &lt;portu&gt; (výchozí: 9982 nebo testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2794,8 +2794,8 @@ například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Připojit se přes SOCKS proxy</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Připojit se k JSON RPC na &lt;port&gt; (výchozí: 8332 nebo testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Připojit se k JSON RPC na &lt;port&gt; (výchozí: 9982 nebo testnet: 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

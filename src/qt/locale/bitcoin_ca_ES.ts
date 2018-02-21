@@ -2009,8 +2009,8 @@ Address: %4
         <translation>Ha sorgit un error al configurar el port RPC %u escoltant a IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 8332 o testnet:18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 9982 o testnet:19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

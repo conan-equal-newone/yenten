@@ -2602,8 +2602,8 @@ Address: %4
         <translation>შეცდომა %u RPC-პორტის მიყურადების ჩართვისას IPv4 მისამართზე: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation> JSON-RPC-შეერთებების მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 8332 ან სატესტო ქსელში: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation> JSON-RPC-შეერთებების მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 9982 ან სატესტო ქსელში: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2738,8 +2738,8 @@ rpcpassword=%s
         <translation>შეერთება SOCKS-პროქსით</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation> JSON-RPC-შეერთება პორტზე &lt;port&gt; (ნაგულისხმევი: 8332 ან სატესტო ქსელში: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation> JSON-RPC-შეერთება პორტზე &lt;port&gt; (ნაგულისხმევი: 9982 ან სატესტო ქსელში: 19982)</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

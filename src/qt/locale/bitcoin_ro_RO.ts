@@ -2470,8 +2470,8 @@ Adresa: %4
         <translation>A intervenit o eroare in timp ce se seta portul RPC %u pentru ascultare pe IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:8332 sau testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:9982 sau testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2603,8 +2603,8 @@ spre exemplu: alertnotify=echo %%s | mail -s "Alerta Bitcoin" admin@foo.com
         <translation>Conectare prin proxy SOCKS</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Conectat la JSON-RPC pe &lt;portul&gt; (implicit: 8332 sau testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Conectat la JSON-RPC pe &lt;portul&gt; (implicit: 9982 sau testnet: 19982)</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

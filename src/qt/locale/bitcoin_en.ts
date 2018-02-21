@@ -3391,8 +3391,8 @@ Address: %4
     </message>
     <message>
         <location line="+50"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3616,7 +3616,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -2649,8 +2649,8 @@ Adresse: %4</translation>
         <translation>Beim Einrichten des RPC-Ports %u zum Abhören von IPv4 ist ein Fehler aufgetreten: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>&lt;port&gt; nach JSON-RPC-Verbindungen abhören (Standard: 8332 oder Testnetz: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>&lt;port&gt; nach JSON-RPC-Verbindungen abhören (Standard: 9982 oder Testnetz: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2833,8 +2833,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"Bitcoin Alert\" admin@foo.com
         <translation>Über einen SOCKS-Proxy verbinden</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Mit JSON-RPC auf &lt;port&gt; verbinden (Standard: 8332 oder Testnetz: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Mit JSON-RPC auf &lt;port&gt; verbinden (Standard: 9982 oder Testnetz: 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

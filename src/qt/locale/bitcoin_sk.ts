@@ -2637,8 +2637,8 @@ Adresa: %4</translation>
         <translation>Vyskytla sa chyba pri nastavovaní RPC portu %u pre počúvanie na IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Počúvať JSON-RPC spojeniam na &lt;port&gt; (predvolené: 8332 or testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Počúvať JSON-RPC spojeniam na &lt;port&gt; (predvolené: 9982 or testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2823,8 +2823,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Pripojiť cez SOCKS proxy</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Pripojiť ku JSON-RPC na &lt;port&gt; (prednastavené: 8332 alebo testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Pripojiť ku JSON-RPC na &lt;port&gt; (prednastavené: 9982 alebo testnet: 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

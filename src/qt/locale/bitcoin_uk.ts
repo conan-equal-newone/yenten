@@ -1958,8 +1958,8 @@ Address: %4
         <translation>Максимальній розмір вхідного буферу на одне з'єднання (типово: 86400)</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Прослуховувати &lt;port&gt; для JSON-RPC-з'єднань (типово: 8332 або тестова мережа: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Прослуховувати &lt;port&gt; для JSON-RPC-з'єднань (типово: 9982 або тестова мережа: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

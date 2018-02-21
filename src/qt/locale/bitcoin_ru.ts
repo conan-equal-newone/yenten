@@ -2647,8 +2647,8 @@ Address: %4
         <translation>Произошла ошибка при открытии RPC-порта %u для прослушивания на IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 8332 или для testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 9982 или для testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2831,8 +2831,8 @@ rpcpassword=%s
         <translation>Подключаться через SOCKS прокси</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Подключаться к JSON-RPC на &lt;порт&gt; (по умолчанию: 8332 или testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Подключаться к JSON-RPC на &lt;порт&gt; (по умолчанию: 9982 или testnet: 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

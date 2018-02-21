@@ -2526,8 +2526,8 @@ Address: %4
         <translation>IPv4 감청을 위한 RPC 포트 %u번을 설정중 오류가 발생했습니다: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>포트 &lt;port&gt;을 통해 JSON-RPC 연결 (기본값: 8332 또는 testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>포트 &lt;port&gt;을 통해 JSON-RPC 연결 (기본값: 9982 또는 testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2648,8 +2648,8 @@ Address: %4
         <translation>SOCKS 프록시를 통해 연결</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>JSON-RPC에 연결 &lt;포트&gt;(기본값:8332 또는 테스트넷: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>JSON-RPC에 연결 &lt;포트&gt;(기본값:9982 또는 테스트넷: 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

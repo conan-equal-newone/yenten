@@ -2648,8 +2648,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Errore riscontrato durante l'impostazione della porta RPC %u per l'ascolto su IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Attendi le connessioni JSON-RPC su &lt;porta&gt; (predefinita: 8332 or testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Attendi le connessioni JSON-RPC su &lt;porta&gt; (predefinita: 9982 or testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2832,8 +2832,8 @@ ad esempio: alertnotify=echo %%s | mail -s "Allarme Bitcoin" admin@foo.com
         <translation>Connetti attraverso SOCKS proxy</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Connetti al JSON-RPC su &lt;port&gt; (predefinita: 8332 o testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Connetti al JSON-RPC su &lt;port&gt; (predefinita: 9982 o testnet: 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

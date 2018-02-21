@@ -1383,8 +1383,8 @@ Dirección: %4</translation>
         <translation>Umbral de desconección de clientes con mal comportamiento (por defecto: 100)</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Escucha conexiones JSON-RPC en el puerto &lt;port&gt; (predeterminado: 8332 or testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Escucha conexiones JSON-RPC en el puerto &lt;port&gt; (predeterminado: 9982 or testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

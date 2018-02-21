@@ -2647,8 +2647,8 @@ Adress: %4
         <translation>Ett fel uppstod vid upprättandet av RPC port %u för att lyssna på IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förvalt: 8332 eller testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förvalt: 9982 eller testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2831,8 +2831,8 @@ till exempel: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Anslut genom SOCKS-proxy</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Anslut till JSON-RPC på &lt;port&gt; (förval: 8332 eller testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Anslut till JSON-RPC på &lt;port&gt; (förval: 9982 eller testnet: 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

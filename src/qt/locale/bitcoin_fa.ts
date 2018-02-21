@@ -1761,8 +1761,8 @@ Address: %4
         <translation>هنگام تنظیم پورت RPC %u برای گوش دادن روی IPv4 خطایی رخ داده است: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>پورت مورد شنود برای اتصالات JSON-RPC (پیش‌فرض: 8332 برای شبکهٔ تست 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>پورت مورد شنود برای اتصالات JSON-RPC (پیش‌فرض: 9982 برای شبکهٔ تست 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

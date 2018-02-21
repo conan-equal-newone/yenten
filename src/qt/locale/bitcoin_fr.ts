@@ -2642,8 +2642,8 @@ Adresse : %4
         <translation>Une erreur est survenue lors du réglage du port RPC %u pour écouter sur IPv4 : %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (par défaut : 8332 ou tesnet : 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (par défaut : 9982 ou tesnet : 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2826,8 +2826,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Bitcoin" admin@foo.com
         <translation>Connexion à travers un serveur mandataire SOCKS</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Se connecter à JSON-RPC sur le &lt;port&gt; (par défaut : 8332 ou testnet : 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Se connecter à JSON-RPC sur le &lt;port&gt; (par défaut : 9982 ou testnet : 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

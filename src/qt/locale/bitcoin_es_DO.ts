@@ -2474,8 +2474,8 @@ Dirección: %4
         <translation>Ha ocurrido un error al configurar el puerto RPC %u para escucha en IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 8332 o testnet:18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 9982 o testnet:19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2605,8 +2605,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Conectar a través de un proxy SOCKS</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Conectar a JSON-RPC en &lt;puerto&gt; (predeterminado: 8332 o testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Conectar a JSON-RPC en &lt;puerto&gt; (predeterminado: 9982 o testnet: 19982)</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

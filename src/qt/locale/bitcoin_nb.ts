@@ -2650,8 +2650,8 @@ Adresse: %4
         <translation>En feil oppstod ved opprettelse av RPC-port %u for IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Lytt etter JSON-RPC tilkoblinger på &lt;port&gt; (standardverdi: 8332 eller testnett: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Lytt etter JSON-RPC tilkoblinger på &lt;port&gt; (standardverdi: 9982 eller testnett: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2833,8 +2833,8 @@ For eksempel: varselmelding=echo %%s | mail -s "Bitcoin Varsel" admin@foo.com</t
         <translation>Koble til via SOCKS proxy</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Koble til JSON-RPC på &lt;port&gt; (default: 8332 eller testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Koble til JSON-RPC på &lt;port&gt; (default: 9982 eller testnet: 19982)</translation>
     </message>
     <message>
         <source>Connection options:</source>

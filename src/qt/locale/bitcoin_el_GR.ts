@@ -2216,8 +2216,8 @@ Address: %4
         <translation>Ένα σφάλμα συνέβη καθώς προετοιμαζόταν η πόρτα RPC %u για αναμονή IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Εισερχόμενες συνδέσεις JSON-RPC στη θύρα &lt;port&gt; (προεπιλογή: 8332 or testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9982 or testnet: 19982)</source>
+        <translation>Εισερχόμενες συνδέσεις JSON-RPC στη θύρα &lt;port&gt; (προεπιλογή: 9982 or testnet: 19982)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
