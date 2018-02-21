@@ -261,7 +261,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Signer le message...</translation>
+        <translation>&amp;Signer un message...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
