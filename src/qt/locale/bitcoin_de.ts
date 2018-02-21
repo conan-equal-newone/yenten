@@ -2621,8 +2621,8 @@ Adresse: %4</translation>
         <translation>Datenverzeichnis festlegen</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>&lt;port&gt; nach Verbindungen abhören (Standard: 8333 oder Testnetz: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9981 or testnet: 19981)</source>
+        <translation>&lt;port&gt; nach Verbindungen abhören (Standard: 9981 oder Testnetz: 19981)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>

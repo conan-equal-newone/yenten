@@ -1597,8 +1597,8 @@ Aadress: %4⏎</translation>
         <translation>Täpsusta andmekataloog</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Kuula ühendusi pordil &lt;port&gt; (vaikeväärtus: 8333 või testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9981 or testnet: 19981)</source>
+        <translation>Kuula ühendusi pordil &lt;port&gt; (vaikeväärtus: 9981 või testnet: 19981)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>

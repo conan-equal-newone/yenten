@@ -2590,8 +2590,8 @@ Adresa: %4
         <translation>Adresář pro data</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Čekat na spojení na &lt;portu&gt; (výchozí: 8333 nebo testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9981 or testnet: 19981)</source>
+        <translation>Čekat na spojení na &lt;portu&gt; (výchozí: 9981 nebo testnet: 19981)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>

@@ -2498,8 +2498,8 @@ Address: %4
         <translation>데이터 폴더 지정</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>&lt;port&gt;로 연결을 허용한다 (기본값: 8333 또는 테스트넷: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9981 or testnet: 19981)</source>
+        <translation>&lt;port&gt;로 연결을 허용한다 (기본값: 9981 또는 테스트넷: 19981)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>

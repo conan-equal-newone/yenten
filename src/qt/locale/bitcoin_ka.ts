@@ -2574,8 +2574,8 @@ Address: %4
         <translation>მიუთითეთ მონაცემთა კატალოგი</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 8333 ან სატესტო ქსელში: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9981 or testnet: 19981)</source>
+        <translation>მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 9981 ან სატესტო ქსელში: 19981)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>

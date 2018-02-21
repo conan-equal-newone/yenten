@@ -2620,8 +2620,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Specifica la cartella dati</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Attendi le connessioni su &lt;porta&gt; (predefinita: 8333 o testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9981 or testnet: 19981)</source>
+        <translation>Attendi le connessioni su &lt;porta&gt; (predefinita: 9981 o testnet: 19981)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>

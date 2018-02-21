@@ -2366,8 +2366,8 @@ Adreso: %4
         <translation>Specifi dosieron por datumoj</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Aŭskulti al &lt;port&gt; por konektoj (defaŭlte: 8333 aŭ testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9981 or testnet: 19981)</source>
+        <translation>Aŭskulti al &lt;port&gt; por konektoj (defaŭlte: 9981 aŭ testnet: 19981)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
