@@ -1,6 +1,8 @@
 UNIX BUILD NOTES
 ====================
 Some notes on how to build Bitcoin in Unix. 
+this doc is for old bitcoin dev environment.
+new env is not match the following.
 
 To Build
 ---------------------

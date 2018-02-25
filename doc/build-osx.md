@@ -1,6 +1,8 @@
 Mac OS X Build Instructions and Notes
 ====================================
 This guide will show you how to build bitcoind(headless client) for OSX.
+this doc is for old bitcoin dev environment.
+new env is not match the following.
 
 Notes
 -----

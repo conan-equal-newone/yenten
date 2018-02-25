@@ -1,6 +1,7 @@
 WINDOWS BUILD NOTES
 ===================
-
+this doc is for old bitcoin dev environment.
+new env is not match the following.
 
 Compilers Supported
 -------------------
