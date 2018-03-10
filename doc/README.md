@@ -1,5 +1,7 @@
 Bitcoin BETA Readme
 =====================
+this doc is for old bitcoin dev environment.
+new env is not match the following.
 
 Copyright (c) 2009-2017 Bitcoin Developers
 
