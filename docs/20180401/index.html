@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tennis</title>
+	<meta name="description" content="tennis20180401" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+	<link rel="stylesheet" href="style.css" />
+	<!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+</head>
+<body>
+tennis
+<div id="gamediv">
+	<div id="titleScreen">
+		<h1>tennis</h1>
+		<p>using HTML5 elements canvas and audio.</p>
+		<p>Audio only works with Firefox.</p>
+		<p>Original Made by David Laurell.</p>
+		<p>Modded by FunkyMonkeyShakeItUpBaby.</p>
+		<button id="playButton">Play</button>
+	</div>
+	<div id="playScreen">
+		<canvas width="640" height="360" id="gameCanvas">
+			<p>Your browser <b>does not</b> support HTML5.</p>
+			<p>Download Firefox or another HTML5 support browser. This page is tested in Firefox 3.0+, and Internet Explorer 11. To get the audio to work you are required to use Firefox for the moment.</p>
+		</canvas>
+		<div id="computerScore">0</div>
+		<div id="playerScore">0</div>
+		<div class="ingamebuttons">
+			<button id="pauseButton">Pause</button>
+			<button id="soundButton">Turn off sound</button>
+		</div>
+		<div id="pauseText">Paused</div>
+	</div>
+</div>
+
+<audio id="bounceLeftRight" autobuffer>
+	<source src="ping.ogg" type="audio/ogg" />
+</audio>
+<audio id="bounceWall" autobuffer>
+	<source src="bom.ogg" type="audio/ogg" />
+</audio>
+<audio id="bouncePoint" autobuffer>
+	<source src="point.ogg" type="audio/ogg" />
+</audio>
+
+<script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>

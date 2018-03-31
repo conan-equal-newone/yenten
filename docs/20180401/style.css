@@ -1,0 +1,127 @@
+/*
+ * Styles for the Pong game
+ * Author: David Laurell <david.laurell@gmail.com>
+ * License: GPLv3
+ */
+
+@CHARSET "UTF-8";
+
+#gamediv {
+	display: block;
+	margin: 0 auto;
+	width: 640px;
+	height: 360px;
+	background: #150000;
+	padding: 10px;
+}
+
+/*
+	Title screen
+*/
+#titleScreen {
+	border: 2px solid #333;
+	padding: 1em;
+	margin: 0 auto;
+	margin-top: 3em;
+	width: 50%;
+	text-align: center;
+}
+#titleScreen h1 {
+	font-weight: normal;
+	color: #ffc;
+	font-size: 1.5em;
+}
+#titleScreen p {
+	font-weight: bold;
+	font-size: 0.8em;
+	color: #ccc;
+	text-align: left;
+}
+
+#titleScreen .vcard {
+	font-size: 0.8em;
+}
+#titleScreen .vcard a {
+	color: #ccc;
+}
+
+/*
+	Play screen
+*/
+#playScreen {
+	display: none;
+}
+
+#playScreen .ingamebuttons {
+	float: left;
+	position: relative;
+	top: -2.5em;
+	left: 0;
+	text-align: center;	
+}
+
+#gameCanvas {
+	position: relative;
+	top: 0;
+	left: 0;
+	color: #ccc;
+}
+#computerScore,
+#playerScore {
+	position: relative;
+	top: -340px;
+	left: 0;
+	font-size: 3em;
+	color: #ccc;
+	line-height: 0;
+	width: 40%;
+	opacity:0.8;filter:alpha(opacity=80);
+}
+
+#computerScore {
+	float: left;
+	text-align: right;
+}
+#playerScore {
+	float: right;
+	text-align: left;
+}
+
+#pauseText {
+	display: none;
+	position: relative;
+	top: -360px;
+	left: 0;
+	font-size: 3em;
+	margin: 3em auto;
+	opacity:0.4;filter:alpha(opacity=40);
+	color: #ffc;
+	text-align: center;
+	line-height: 0;
+}
+
+/*
+	Buttons
+*/
+#playButton,
+#pauseButton,
+#soundButton {
+	border: 2px solid #333;
+	background: #111;
+	color: #ffc;
+	padding: 0.3em 2em;
+	font-size: 0.8em;
+	opacity:0.4;filter:alpha(opacity=40);
+}
+#pauseButton,
+#soundButton {
+	float: left;
+	margin-left: 1em;
+}
+#pauseButton:hover,
+#soundButton:hover,
+#playButton:hover {
+	background: #444;
+	color: #afa;
+}
+
