@@ -1,58 +1,70 @@
-Source: bitcoin
+Source: yenten
 Section: utils
 Priority: optional
-Maintainer: Jonas Smedegaard <dr@jones.dk>
-Uploaders: Micah Anderson <micah@debian.org>
+Maintainer: onokatio <onokatio@gmail.com>
+Uploaders: onokatio <onokatio@gmail.com>
 Build-Depends: debhelper,
  devscripts,
  automake,
+ libtool,
  bash-completion,
- libboost-system-dev (>> 1.35) | libboost-system1.35-dev,
  libdb4.8++-dev,
  libssl-dev,
  pkg-config,
- libminiupnpc8-dev,
- libboost-filesystem-dev (>> 1.35) | libboost-filesystem1.35-dev,
- libboost-program-options-dev (>> 1.35) | libboost-program-options1.35-dev,
- libboost-thread-dev (>> 1.35) | libboost-thread1.35-dev,
- libboost-test-dev (>> 1.35) | libboost-test1.35-dev,
- qt4-qmake,
- libqt4-dev,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.47),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.47),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.47),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.47),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.47),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.47),
+ libminiupnpc8-dev | libminiupnpc-dev,
+ qt4-qmake, libqt4-dev,
+ qttools5-dev-tools, qttools5-dev,
  libqrencode-dev,
- libprotobuf-dev, protobuf-compiler
+ libprotobuf-dev, protobuf-compiler,
+ python,
+ libzmq3-dev
 Standards-Version: 3.9.2
-Homepage: http://www.bitcoin.org/
-Vcs-Git: git://github.com/bitcoin/bitcoin.git
-Vcs-Browser: http://github.com/bitcoin/bitcoin
+Homepage: https://conan-equal-newone.github.io/yenten/
+Vcs-Git: git://github.com/conan-equal-newone/yenten.git
+Vcs-Browser: https://github.com/conan-equal-newone/yenten
 
-Package: bitcoind
+Package: yentend
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Bitcoin is a free open source peer-to-peer electronic cash system that
+ Yenten is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
  check for double-spending.
  .
- Full transaction history is stored locally at each client.  This
- requires 20+ GB of space, slowly growing.
- .
-
  This package provides the daemon, bitcoind, and the CLI tool
- bitcoin-cli to interact with the daemon.
+ yenten-cli to interact with the daemon.
 
-Package: bitcoin-qt
+Package: yenten-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Bitcoin is a free open source peer-to-peer electronic cash system that
+ Yenten is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
  check for double-spending.
  .
- Full transaction history is stored locally at each client.  This
- requires 20+ GB of space, slowly growing.
+ This package provides Yenten-Qt, a GUI for Bitcoin based on Qt.
+
+Package: yenten-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ Yenten is a free open source peer-to-peer electronic cash system that
+ is completely decentralized, without the need for a central server or
+ trusted parties.  Users hold the crypto keys to their own money and
+ transact directly with each other, with the help of a P2P network to
+ check for double-spending.
  .
- This package provides Bitcoin-Qt, a GUI for Bitcoin based on Qt.
+ This package provides yenten-tx, a command-line transaction creation
+ tool which can be used without a bitcoin daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.

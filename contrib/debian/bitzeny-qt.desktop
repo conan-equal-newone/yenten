@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Yenten Core
+Comment=Connect to the Yenten P2P Network
+Comment[de]=Verbinde mit dem Yenten peer-to-peer Netzwerk
+Comment[fr]=Yenten, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Yenten, eşten eşe kriptografik sanal para birimi
+Exec=yenten-qt %u
+Terminal=false
+Type=Application
+Icon=yenten128
+MimeType=x-scheme-handler/yenten;
+Categories=Office;Finance;

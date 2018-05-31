@@ -1,0 +1,6 @@
+# List of fixed seed nodes for testnet
+# 223.252.173.147:8333
+# [2001:0:4137:9e76:1025:4e5:acb0:22cd]:8333
+
+# Onion nodes
+# thfsmmn2jbitcoin.onion

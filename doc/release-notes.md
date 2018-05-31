@@ -1,81 +1,78 @@
-Yenten Core is now available from:
+Bitcoin Core version *0.15.1* is now available from:
 
-  https://github.com/conan-equal-newone/yenten
+  <https://bitcoincore.org/bin/bitcoin-core-0.15.x/>
 
-This is a new version release.
+or
 
-Upgrading and downgrading
-==========================
+  <https://bitcoin.org/bin/bitcoin-core-0.15.x/>
+
+This is a new minor version release, including various bugfixes and
+performance improvements, as well as updated translations.
+
+Please report bugs using the issue tracker at GitHub:
+
+  <https://github.com/bitcoin/bitcoin/issues>
+
+To receive security and update notifications, please subscribe to:
+
+  <https://bitcoincore.org/en/list/announcements/join/>
 
 How to Upgrade
---------------
+==============
 
-Overwrite yentend, yenten-cli, or yenten-qt
+If you are running an older version, shut it down. Wait until it has completely
+shut down (which might take a few minutes for older versions), then run the 
+installer (on Windows) or just copy over `/Applications/Bitcoin-Qt` (on Mac)
+or `bitcoind`/`bitcoin-qt` (on Linux).
 
-If you are upgrading from version earlier, the first time you run
-core your blockchain files will be re-indexed, which will take anywhere from 
-30 minutes to several hours, depending on the speed of your machine.
+The first time you run version 0.15.0 or higher, your chainstate database will
+be converted to a new format, which will take anywhere from a few minutes to
+half an hour, depending on the speed of your machine.
 
-Downgrading warnings
---------------------
+The file format of `fee_estimates.dat` changed in version 0.15.0. Hence, a
+downgrade from version 0.15 or upgrade to version 0.15 will cause all fee
+estimates to be discarded.
 
-Backup wallet.dat and clean install.
+Note that the block database format also changed in version 0.8.0 and there is no
+automatic upgrade code from before version 0.8 to version 0.15.0. Upgrading
+directly from 0.7.x and earlier without redownloading the blockchain is not supported.
+However, as usual, old wallet versions are still supported.
 
-Core Release notes
-=======================
+Downgrading warning
+-------------------
 
-RPC:
-- Avoid a segfault on getblock if it can't read a block from disk
-- Add paranoid return value checks in base58
+The chainstate database for this release is not compatible with previous
+releases, so if you run 0.15 and then decide to switch back to any
+older version, you will need to run the old release with the `-reindex-chainstate`
+option to rebuild the chainstate data structures in the old format.
 
-Protocol and network code:
-- Don't poll showmyip.com, it doesn't exist anymore
-- Add a way to limit deserialized string lengths and use it
-- Increase IsStandard() scriptSig length
-- Avoid querying DNS seeds, if we have open connections
-- Remove a useless millisleep in socket handler
-- Stricter memory limits on CNode
-- Better orphan transaction handling
-- Add `-maxorphantx=<n>` and `-maxorphanblocks=<n>` options for control over the maximum orphan transactions and blocks
+If your node has pruning enabled, this will entail re-downloading and
+processing the entire blockchain.
 
-Wallet:
-- Check redeemScript size does not exceed 520 byte limit
-- Ignore (and warn about) too-long redeemScripts while loading wallet
+Compatibility
+==============
 
-GUI:
-- fix 'opens in testnet mode when presented with a BIP-72 link with no fallback'
-- AvailableCoins: acquire cs_main mutex
-- Fix unicode character display on MacOSX
+Bitcoin Core is extensively tested on multiple operating systems using
+the Linux kernel, macOS 10.8+, and Windows Vista and later. Windows XP is not supported.
 
-Miscellaneous:
-- key.cpp: fail with a friendlier message on missing ssl EC support
-- Remove bignum dependency for scripts
-- Upgrade OpenSSL to 1.0.1k
-- Upgrade miniupnpc to 2.0
-- Fix boost detection in build system on some platforms
+Bitcoin Core should also work on most other Unix-like systems but is not
+frequently tested on them.
+
+
+Notable changes
+===============
+
+0.15.x Change log
+=================
+
 
 Credits
---------
+=======
 
-Thanks to everyone who contributed to this release:
+Thanks to everyone who directly contributed to this release:
 
-- Andrew Poelstra
-- Cory Fields
-- Gavin Andresen
-- Jeff Garzik
-- Johnathan Corgan
-- Julian Haight
-- Michael Ford
-- Pavel Vasin
-- Peter Todd
-- phantomcircuit
-- Pieter Wuille
-- Rose Toomey
-- Ruben Dario Ponticelli
-- shshshsh
-- Trevin Hofmann
-- Warren Togami
-- Wladimir J. van der Laan
-- Zak Wilcox
+(todo)
 
 As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/bitcoin/).
+
+

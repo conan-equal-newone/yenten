@@ -1,69 +1,85 @@
 Yenten Core integration/staging tree
 =====================================
 
-https://conan-equal-newone.github.io/yenten/
+original site
+----------------
+http://conan-equal-newone.github.io/yenten/
 
-* Copyright (c) 2017-     Yenten Core Developers
-* Copyright (c) 2009-2017 Bitcoin Core Developers
-* Copyright (c) 2013-2017 Dash Developers (DarkGravityWave3)
-* Copyright (c) 2014-2017 Alexander Peslyak (Yescrypt Original)
+Developer GitHub
+----------------
+https://github.com/conan-equal-newone/
+
+Discussion forum
+----------------
+https://bitcointalk.org/
+
+What is Yenten?
+----------------
+
+Yenten is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. Yenten uses peer-to-peer technology to operate
+with no central authority: managing transactions and issuing money are carried
+out collectively by the network. Yenten Core is the name of open source
+software which enables the use of this currency.
+
+For more information, as well as an immediately useable, binary version of
+the Yenten Core software, see https://github.com/conan-equal-newone/yenten/releases.
 
 License
 -------
 
 Yenten Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see http://opensource.org/licenses/MIT.
+information or see https://opensource.org/licenses/MIT.
 
-Build yentend on Ubuntu 16.04
+Development Process
 -------------------
 
-    sudo apt-get install build-essential
-    sudo apt-get install libtool autotools-dev autoconf
-    sudo apt-get install libssl-dev
-    sudo apt-get install libboost-all-dev
-    sudo apt-get install pkg-config
-    sudo add-apt-repository ppa:bitcoin/bitcoin
-    sudo apt-get update
-    sudo apt-get install libdb4.8-dev
-    sudo apt-get install libdb4.8++-dev
-    
-    git clone https://github.com/conan-equal-newone/yenten.git
-    cd yenten
-    ./autogen.sh
-    ./configure --enable-upnp-default --without-gui --disable-tests
-    make
+The `master` branch is regularly built and tested, but is not guaranteed to be
+completely stable. [Tags](https://github.com/conan-equal-newone/yenten/tags) are created
+regularly to indicate new official, stable release versions of Yenten Core.
 
-Development tips and tricks
----------------------------
+The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**compiling for debugging**
+The developer [Discussion forum](https://bitcointalk.org/)
+should be used to discuss complicated or controversial changes before working
+on a patch set.
 
-Run configure with the --enable-debug option, then make. Or run configure with
-CXXFLAGS="-g -ggdb -O0" or whatever debug flags you need.
+Testing
+-------
 
-**debug.log**
+Testing and code review is the bottleneck for development; we get more pull
+requests than we can review and test on short notice. Please be patient and help out by testing
+other people's pull requests, and remember this is a security-critical project where any mistake might cost people
+lots of money.
 
-If the code is behaving strangely, take a look in the debug.log file in the data directory;
-error and debugging message are written there.
+### Automated Testing
 
-The -debug=... command-line option controls debugging; running with just -debug will turn
-on all categories (and give you a very large debug.log file).
+Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
+submit new unit tests for old code. Unit tests can be compiled and run
+(assuming they weren't disabled in configure) with: `make check`. Further details on running
+and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
 
-The Qt code routes qDebug() output to debug.log under category "qt": run with -debug=qt
-to see it.
+There are also [regression and integration tests](/test), written
+in Python, that are run automatically on the build server.
+These tests can be run (if the [test dependencies](/test) are installed) with: `test/functional/test_runner.py`
 
-**testnet and regtest modes**
+The Travis CI system makes sure that every pull request is built for Windows, Linux, and OS X, and that unit/sanity tests are run automatically.
 
-Run with the -testnet option to run with "play bitcoins" on the test network, if you
-are testing multi-machine code that needs to operate across the internet.
+### Manual Quality Assurance (QA) Testing
 
-If you are testing something that can run on one machine, run with the -regtest option.
-In regression test mode blocks can be created on-demand; see qa/rpc-tests/ for tests
-that run in -regest mode.
+Changes should be tested by somebody other than the developer who wrote the
+code. This is especially important for large or high-risk changes. It is useful
+to add a test plan to the pull request description if testing the changes is
+not straightforward.
 
-**DEBUG_LOCKORDER**
+Translations
+------------
 
-Bitcoin Core is a multithreaded application, and deadlocks or other multithreading bugs
-can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
-CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of what locks
-are held, and adds warning to the debug.log file if inconsistencies are detected.
+Changes to translations as well as new translations can be submitted to
+[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
+
+Translations are periodically pulled from Transifex and merged into the git repository. See the
+[translation process](doc/translation_process.md) for details on how this works.
+
+**Important**: We do not accept translation changes as GitHub pull requests because the next
+pull from Transifex would automatically overwrite them again.

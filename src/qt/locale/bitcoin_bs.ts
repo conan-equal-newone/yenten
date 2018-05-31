@@ -1,8 +1,5 @@
 <TS language="bs" version="2.1">
 <context>
-    <name>AboutDialog</name>
-    </context>
-<context>
     <name>AddressBookPage</name>
     </context>
 <context>
@@ -12,18 +9,14 @@
     <name>AskPassphraseDialog</name>
     </context>
 <context>
+    <name>BanTableModel</name>
+    </context>
+<context>
     <name>BitcoinGUI</name>
     <message>
         <source>Bitcoin</source>
         <translation>Bitcoin</translation>
     </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Jezrga</translation>
-    </message>
-    </context>
-<context>
-    <name>ClientModel</name>
     </context>
 <context>
     <name>CoinControlDialog</name>
@@ -36,17 +29,12 @@
     </context>
 <context>
     <name>HelpMessageDialog</name>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Jezrga</translation>
-    </message>
     </context>
 <context>
     <name>Intro</name>
-    <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -61,11 +49,13 @@
     <name>PaymentServer</name>
     </context>
 <context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
     <name>QObject</name>
-    <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
+    </context>
+<context>
+    <name>QObject::QObject</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -97,6 +87,9 @@
     </message>
     </context>
 <context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
     <name>ShutdownWindow</name>
     </context>
 <context>
@@ -112,10 +105,6 @@
     </context>
 <context>
     <name>SplashScreen</name>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Jezrga</translation>
-    </message>
     </context>
 <context>
     <name>TrafficGraphWidget</name>
@@ -153,6 +142,9 @@
     </message>
     </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -163,5 +155,9 @@
     </context>
 <context>
     <name>bitcoin-core</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Jezrga</translation>
+    </message>
     </context>
 </TS>

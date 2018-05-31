@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
   <key>LSMinimumSystemVersion</key>
-  <string>10.6.0</string>
+  <string>10.8.0</string>
 
   <key>LSArchitecturePriority</key>
   <array>
@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 199X-@COPYRIGHT_YEAR@ The Yenten Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ @COPYRIGHT_HOLDERS_FINAL@</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -31,8 +31,14 @@
   <key>CFBundleExecutable</key>
   <string>Yenten-Qt</string>
 
+  <key>CFBundleName</key>
+  <string>Yenten-Qt</string>
+
+  <key>LSHasLocalizedDisplayName</key>
+  <true/>
+
   <key>CFBundleIdentifier</key>
-  <string>org.bitcoinfoundation.Yenten-Qt</string>
+  <string>org.bitcoinfoundation.Bitcoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -89,6 +95,9 @@
     <string>NSApplication</string>
 
   <key>NSHighResolutionCapable</key>
+    <string>True</string>
+
+  <key>LSAppNapIsDisabled</key>
     <string>True</string>
 
   <key>LSApplicationCategoryType</key>
