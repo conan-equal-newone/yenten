@@ -143,13 +143,17 @@ public:
         checkpointData = (CCheckpointData) {
             {
                 {0, uint256S("0x00001828d845205a951f9609e011775e035b00c7fb476310261ef30460cdccab")},
-            }
+                { 33333, uint256S("0000001d7e6a0857ce92883925e7164b03be20a584e1e900f8f2ae9e76aee77f")},
+                { 66666, uint256S("000000025d8c25599f2650f45f7f5cc8465546dccd1f7f0d6ca30cb834e43d77")},
+                { 123456, uint256S("00000016b5f2435eb8dd4d5be18e757ea0aa139b71defd3b290f8ac0c0629889")},
+                { 156000, uint256S("0000001b5fa73a5bd1b78b2bf087e2734bd515774ee4ff970c0b19102cc4306c")},
+                            }
         };
 
         chainTxData = ChainTxData{
-            // Data as of block 00000000f10257390e9967c00d893cb0a0fa61c8585f0eea6c78d7ef6b75e6d4 (height 1119981).
-            1507032424, // * UNIX timestamp of last known number of transactions
-            0,    // * total number of transactions between genesis and that timestamp
+            // Data as of block 00000017fb4512999352c3ae0a9ea0aa0fc03e8118f74d4ece68df939bb33d93 (height 156001).
+            1528276166, // * UNIX timestamp of last known number of transactions
+            839317,    // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
             0.0750 // * estimated number of transactions per second after that timestamp
         };
@@ -342,4 +346,5 @@ void UpdateVersionBitsParameters(Consensus::DeploymentPos d, int64_t nStartTime,
 {
     globalChainParams->UpdateVersionBitsParameters(d, nStartTime, nTimeout);
 }
+
 
